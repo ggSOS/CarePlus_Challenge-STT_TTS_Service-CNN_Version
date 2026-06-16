@@ -1,0 +1,12 @@
+openai-whisper
+librosa
+
+packaging
+requests>=2.20.0
+setuptools
+
+pyttsx3
+
+fastapi
+uvicorn
+python-multipart

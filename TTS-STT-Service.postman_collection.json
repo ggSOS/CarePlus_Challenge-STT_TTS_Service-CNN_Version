@@ -1,0 +1,84 @@
+{
+  "info": {
+    "_postman_id": "3660747b-106b-41a7-a32c-0fcf5470d0cd",
+    "name": "TTS/STT-Service",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "43561178"
+  },
+  "item": [
+    {
+      "name": "health-check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000"
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "text-to-speech",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"content\": \"Olá! Eu sou um assistente totalmente offline e seguro.\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/tts",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "tts"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "speech-to-text",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "uuid": "fe09d0fe-484f-439f-b879-ab030e236305",
+              "src": "/D:/projeto_cp/sla/output.wav"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:5000/stt",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "stt"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

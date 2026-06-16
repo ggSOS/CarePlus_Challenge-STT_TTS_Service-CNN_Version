@@ -1,0 +1,14 @@
+Sobre Reembolso:
+Para solicitar seu reembolso, o caminho mais rápido é pelo aplicativo Care Plus. Vá em 'Reembolso' > 'Solicitar', envie a foto da nota fiscal/recibo e o relatório médico. O prazo de pagamento é de até X dias úteis após a aprovação.
+
+Sobre Rede Credenciada:
+Para verificar a cobertura atualizada do seu plano, digite o número do seu cartão Care Plus. Assim, consigo validar se os hospitais e laboratórios solicitados fazem parte da sua categoria específica.
+
+Sobre Guia de Autorização:
+Você pode solicitar sua autorização por aqui. Por favor, envie uma foto legível do pedido médico, o relatório com a justificativa clínica e a data prevista para o procedimento.
+
+Sobre Segunda Via:
+Claro! Para emitir a segunda via do boleto por segurança, por favor digite o CNPJ da empresa ou o CPF do titular para que eu possa localizar o documento e gerar o código PIX ou código de barras.
+
+Sobre Carências:
+Se a sua contratação foi feita por um plano empresarial com mais de 30 vidas, você está isento de carências para consultas e exames simples. Para planos PME menores, por favor digite seu CPF para consultarmos o contrato do seu grupo.

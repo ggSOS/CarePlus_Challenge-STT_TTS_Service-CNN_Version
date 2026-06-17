@@ -98,6 +98,8 @@ Além de eliminar a necessidade de treinamento próprio, o modelo oferece suport
 pip install -r .\requirements.txt
 ```
 
+- [ffmpeg](https://www.ffmpeg.org/download.html)
+
 - um arquivo de áudio compatível (wav, mp3, m4a, ogg ou formatos suportados pelo Whisper) ou um texto para ser transcrito
 > conferir exemplos disponibilizados em `examples/`
 
